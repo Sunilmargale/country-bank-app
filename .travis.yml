@@ -10,5 +10,5 @@ env:
 after_success:
   - bash <(curl -s https://codecov.io/bash)
   - docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
-  - docker build -t nikitap/countrybank:latest .
-  - docker push nikitap/countrybank
+  - docker build -t sunilmargale/country-bank:latest .
+  - docker push sunilmargale/country-bank
