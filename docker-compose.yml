@@ -1,7 +1,7 @@
 version: '2'
 services:
   cb:
-    image: sunilmargale/country-bank:latest
+    image: sunilmargale/country-bank
     ports:
       - "8000:8000"
     environment:
